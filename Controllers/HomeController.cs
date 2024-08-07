@@ -42,6 +42,25 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult AgregarDeportista()
+    {
+        return View();
+    }
+    public IActionResult Creditos()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult GuardarDeportista(Deportista dep)
+    {
+        return RedirectToAction("Index");
+    }
+    public IActionResult EliminarDeportista (int idCandidato)
+    {
+        return RedirectToAction("Index");
+    }
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
