@@ -1,4 +1,5 @@
-public class Pais{
+using System;
+public class Deportista{
      int IdDeportista { get; set; }
      string Nombre { get; set; }
      string Apellido { get; set; }
