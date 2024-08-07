@@ -22,6 +22,26 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult Deportes()
+    {
+        return View();
+    }
+    public IActionResult Paises()
+    {
+        return View();
+    }
+    public IActionResult VerDetalleDeporte(int idDeporte)
+    {
+        return View();
+    }
+    public IActionResult VerDetallePais(int idPais)
+    {
+        return View();
+    }
+    public IActionResult VerDetalleDeportista(int idDeportista)
+    {
+        return View();
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
