@@ -1,0 +1,9 @@
+Z:\2024\PROG\TP_SQL\obj\Debug\net8.0\TP_SQL.csproj.AssemblyReference.cache
+Z:\2024\PROG\TP_SQL\obj\Debug\net8.0\TP_SQL.GeneratedMSBuildEditorConfig.editorconfig
+Z:\2024\PROG\TP_SQL\obj\Debug\net8.0\TP_SQL.AssemblyInfoInputs.cache
+Z:\2024\PROG\TP_SQL\obj\Debug\net8.0\TP_SQL.AssemblyInfo.cs
+Z:\2024\PROG\TP_SQL\obj\Debug\net8.0\TP_SQL.csproj.CoreCompileInputs.cache
+Z:\2024\PROG\TP_SQL\obj\Debug\net8.0\TP_SQL.MvcApplicationPartsAssemblyInfo.cache
+Z:\2024\PROG\TP_SQL\obj\Debug\net8.0\TP_SQL.RazorAssemblyInfo.cache
+Z:\2024\PROG\TP_SQL\obj\Debug\net8.0\TP_SQL.RazorAssemblyInfo.cs
+Z:\2024\PROG\TP_SQL\obj\Debug\net8.0\TP_SQL.sourcelink.json

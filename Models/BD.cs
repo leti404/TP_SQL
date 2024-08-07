@@ -27,7 +27,7 @@ public class BD{
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deportes WHERE IdDeporte = @idDeporte";
-            _InfoDeporte = JJOO.Query<Deporte>(sql, new{idDeporte = idDeporte}).ToList(); 
+            deporte = JJOO.Query<Deporte>(sql, new{idDeporte = idDeporte}).ToList(); 
         }
         return deporte; 
     }
@@ -37,7 +37,7 @@ public class BD{
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Paises WHERE IdPais = @idPais";
-            pais = JJOO.Query<Deporte>(sql, new{idPais = idPais}).ToList(); 
+            pais = JJOO.Query<Pais>(sql, new{idPais = idPais}).ToList(); 
         }
         return pais;
     }
@@ -47,7 +47,7 @@ public class BD{
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deportistas WHERE IdDeportistas = @idDeportista";
-            deportista = JJOO.Query<Deporte>(sql, new{idDeportista = idDeportista}).ToList(); 
+            deportista = JJOO.Query<Deportista>(sql, new{idDeportista = idDeportista}).ToList(); 
         }
         return deportista;
     }
@@ -57,27 +57,27 @@ public class BD{
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Paises";
-            _ListadoPaises = JJOO.Query<Deporte>(sql).ToList(); 
+            _ListadoPaises = JJOO.Query<Pais>(sql).ToList(); 
         }
         return _ListadoPaises;
     }
-    private static List<Deportista> _ListadoDeportistasPorDeporte = new List<Pais>();
+    private static List<Deportista> _ListadoDeportistasPorDeporte = new List<Deportista>();
     public static List<Deportista> ListarDeportistasPorDeporte(int idDeporte)
     {
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Paises WHERE IdDeporte = @idDeporte";
-            _ListadoDeportistasPorDeporte = JJOO.Query<Deporte>(sql, new{idDeporte = idDeporte}).ToList(); 
+            _ListadoDeportistasPorDeporte = JJOO.Query<Deportista>(sql, new{idDeporte = idDeporte}).ToList(); 
         }
         return _ListadoDeportistasPorDeporte;
     }
-    private static List<Deportista> _ListadoDeportistasPorPais = new List<Pais>();
+    private static List<Deportista> _ListadoDeportistasPorPais = new List<Deportista>();
     public static List<Deportista> ListarDeportistasPorPais(int idPais)
     {
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Paises WHERE IdPais = @idPais";
-            _ListadoDeportistasPorPais = JJOO.Query<Deporte>(sql, new{idPais = idPais}).ToList(); 
+            _ListadoDeportistasPorPais = JJOO.Query<Deportista>(sql, new{idPais = idPais}).ToList(); 
         }
         return _ListadoDeportistasPorPais;
     }
