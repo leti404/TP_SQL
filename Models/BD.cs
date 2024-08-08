@@ -2,7 +2,7 @@ using System.Data.SqlClient;
 using System;
 using Dapper;
 public class BD{
-
+    private static string _connectionString = @"Server=localhost; DataBase=JJOO;Trusted_Connection=True;";
     public static void AgregarDeportista(Deportista Dep)
     {
         string sql = "INSERT INTO Deportistas(Nombre, Apellido, FechaNacimiento, Foto, IdPais, IdDeporte) VALUES (@dNombre, @dApellido, @dFechaNacimiento, @dFoto, @dIdPais, @dIdDeporte)";
