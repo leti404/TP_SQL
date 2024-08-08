@@ -1,3 +1,4 @@
+using System;
 public class Pais{
      int IdPais { get; set; }
      string Nombre { get; set; }
