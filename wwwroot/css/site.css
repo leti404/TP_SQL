@@ -50,3 +50,23 @@ html, body {
   font-size: 14px;
   color: #333;
 }
+.titulo{
+  display: flex;
+  text-align: center;
+  margin: 10px;
+ }
+
+.cita p{
+  font-weight: bold;
+}
+footer {
+  margin-top: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  text-align: left;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
