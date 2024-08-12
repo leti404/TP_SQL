@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\2024\\PROG\\TP_SQL\\TP_SQL.csproj": {}
+    "C:\\Users\\48521796\\Downloads\\TP_SQL\\TP_SQL.csproj": {}
   },
   "projects": {
-    "Z:\\2024\\PROG\\TP_SQL\\TP_SQL.csproj": {
+    "C:\\Users\\48521796\\Downloads\\TP_SQL\\TP_SQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\2024\\PROG\\TP_SQL\\TP_SQL.csproj",
+        "projectUniqueName": "C:\\Users\\48521796\\Downloads\\TP_SQL\\TP_SQL.csproj",
         "projectName": "TP_SQL",
-        "projectPath": "Z:\\2024\\PROG\\TP_SQL\\TP_SQL.csproj",
-        "packagesPath": "C:\\Users\\48386947\\.nuget\\packages\\",
-        "outputPath": "Z:\\2024\\PROG\\TP_SQL\\obj\\",
+        "projectPath": "C:\\Users\\48521796\\Downloads\\TP_SQL\\TP_SQL.csproj",
+        "packagesPath": "C:\\Users\\48521796\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\48521796\\Downloads\\TP_SQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\48386947\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\48521796\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

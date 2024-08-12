@@ -9,71 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP_SQL
 build_property.RootNamespace = TP_SQL
-build_property.ProjectDir = Z:\2024\PROG\TP_SQL\
+build_property.ProjectDir = C:\Users\48521796\Downloads\TP_SQL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = Z:\2024\PROG\TP_SQL
+build_property.MSBuildProjectDirectory = C:\Users\48521796\Downloads\TP_SQL
 build_property._RazorSourceGeneratorDebug = 
 
-[Z:/2024/PROG/TP_SQL/Views/Home/AgregarDeportista.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Home/AgregarDeportista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZ3JlZ2FyRGVwb3J0aXN0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/Home/Creditos.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Home/Creditos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/Home/Deportes.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Home/Deportes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBvcnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/Home/Historia.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Home/Historia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3JpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/Home/Index.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/Home/Paises.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Home/Paises.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWlzZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/Home/Privacy.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/Home/VerDetalleDeporte.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Home/VerDetalleDeporte.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlRGVwb3J0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/Home/VerDetalleDeportista.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Home/VerDetalleDeportista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlRGVwb3J0aXN0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/Home/VerDetallePais.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Home/VerDetallePais.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlUGFpcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/Shared/Error.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/_ViewImports.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/_ViewStart.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/2024/PROG/TP_SQL/Views/Shared/_Layout.cshtml]
+[C:/Users/48521796/Downloads/TP_SQL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mr7mnddhu7
