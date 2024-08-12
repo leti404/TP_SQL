@@ -1,10 +1,10 @@
 using System;
 public class Deportista{
-     int IdDeportista { get; set; }
-     string Nombre { get; set; }
-     string Apellido { get; set; }
-     DateTime FechaNacimiento { get; set; }
-     string Foto { get; set; }
-     int IdPais { get; set; }
-     int IdDeporte { get; set; }
+     public int IdDeportista { get; set; }
+     public string Nombre { get; set; }
+     public string Apellido { get; set; }
+     public DateTime FechaNacimiento { get; set; }
+     public string Foto { get; set; }
+     public int IdPais { get; set; }
+     public int IdDeporte { get; set; }
 }

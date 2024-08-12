@@ -27,7 +27,7 @@ public class BD{
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deportes WHERE IdDeporte = @idDeporte";
-            deporte = JJOO.Query<Deporte>(sql, new{idDeporte = idDeporte}).ToList(); 
+            deporte = JJOO.QuerySingle<Deporte>(sql, new{idDeporte = idDeporte}); // arreglo raro cnsulta binkerrrr
         }
         return deporte; 
     }
@@ -37,7 +37,7 @@ public class BD{
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Paises WHERE IdPais = @idPais";
-            pais = JJOO.Query<Pais>(sql, new{idPais = idPais}).ToList(); 
+            pais = JJOO.QuerySingle<Pais>(sql, new{idPais = idPais});// binker  
         }
         return pais;
     }
@@ -47,7 +47,7 @@ public class BD{
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deportistas WHERE IdDeportistas = @idDeportista";
-            deportista = JJOO.Query<Deportista>(sql, new{idDeportista = idDeportista}).ToList(); 
+            deportista = JJOO.QuerySingle<Deportista>(sql, new{idDeportista = idDeportista}); // binker
         }
         return deportista;
     }

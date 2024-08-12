@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP_SQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53f26e5d5361ece1a716e517dbe9b730d668023e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+682236b54b6e173fc3c502cb6870cb0b25b105bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP_SQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP_SQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
