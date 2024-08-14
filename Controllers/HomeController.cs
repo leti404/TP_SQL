@@ -6,9 +6,7 @@ namespace TP_SQL.Controllers;
 
 public class HomeController : Controller
 {
-private readonly ILogger _logger;
-
-<<<<<<< HEAD
+    private readonly ILogger _logger;
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
@@ -78,11 +76,10 @@ private readonly ILogger _logger;
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
-=======
+
 public HomeController(ILogger<HomeController> logger)
 {
-    _logger = logger;
->>>>>>> f93945a2d2dd6f85289c8bf263dbd0a1d3aa7e2b
+    _logger = logger; f93945a2d2dd6f85289c8bf263dbd0a1d3aa7e2b;
 }
 
 public IActionResult Index()
@@ -96,10 +93,12 @@ public IActionResult Privacy()
 }
 public IActionResult Deportes()
 {
+    ViewBag.ListaDeportes = BD.ListarDeportes;
     return View();
 }
 public IActionResult Paises()
 {
+    ViewBag.ListaPaises = BD.ListarPaises;
     return View();
 }
 public IActionResult VerDetalleDeporte(int idDeporte)
