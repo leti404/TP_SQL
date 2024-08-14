@@ -51,6 +51,10 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult Historia()
+    {
+        return View();
+    }
 
     [HttpPost]
     public IActionResult GuardarDeportista(Deportista dep)
