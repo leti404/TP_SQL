@@ -78,3 +78,15 @@ C:\Users\48521796\Downloads\TP_SQL\obj\Debug\net8.0\refint\TP_SQL.dll
 C:\Users\48521796\Downloads\TP_SQL\obj\Debug\net8.0\TP_SQL.pdb
 C:\Users\48521796\Downloads\TP_SQL\obj\Debug\net8.0\TP_SQL.genruntimeconfig.cache
 C:\Users\48521796\Downloads\TP_SQL\obj\Debug\net8.0\ref\TP_SQL.dll
+Z:\Tp_JO\obj\Debug\net8.0\TP_SQL.csproj.AssemblyReference.cache
+Z:\Tp_JO\obj\Debug\net8.0\TP_SQL.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Tp_JO\obj\Debug\net8.0\TP_SQL.AssemblyInfoInputs.cache
+Z:\Tp_JO\obj\Debug\net8.0\TP_SQL.AssemblyInfo.cs
+Z:\Tp_JO\obj\Debug\net8.0\TP_SQL.csproj.CoreCompileInputs.cache
+Z:\Tp_JO\obj\Debug\net8.0\TP_SQL.MvcApplicationPartsAssemblyInfo.cache
+Z:\Tp_JO\obj\Debug\net8.0\TP_SQL.RazorAssemblyInfo.cache
+Z:\Tp_JO\obj\Debug\net8.0\TP_SQL.RazorAssemblyInfo.cs
+Z:\Tp_JO\obj\Debug\net8.0\TP_SQL.sourcelink.json
+Z:\Tp_JO\obj\Debug\net8.0\TP_SQL.dll
+Z:\Tp_JO\obj\Debug\net8.0\refint\TP_SQL.dll
+Z:\Tp_JO\obj\Debug\net8.0\TP_SQL.pdb
