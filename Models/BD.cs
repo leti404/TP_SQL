@@ -81,5 +81,16 @@ public class BD{
         }
         return _ListadoDeportistasPorPais;
     }
+
+    private static List<Deporte> _ListadoDeportes = new List<Deporte>();
+    public static List<Deporte> ListarDeportes(int idDeporte)
+    {
+        using(SqlConnection JJOO = new SqlConnection(_connectionString))
+        {
+            string sql = "SELECT * FROM Paises WHERE IdDeporte = @idDeporte";
+            _ListadoDeportistasPorPais = JJOO.Query<Deportista>(sql, new{idPais = idPais}).ToList(); 
+        }
+        return _ListadoDeportes;
+    }
 }
 
