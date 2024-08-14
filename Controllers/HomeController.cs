@@ -24,7 +24,6 @@ public class HomeController : Controller
     }
     public IActionResult Deportes()
     {
-        //ViewBag.ListaDeportes = BD.ListarDeportistasPorDeporte;
         return View();
     }
     public IActionResult Paises()
