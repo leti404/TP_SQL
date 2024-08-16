@@ -23,10 +23,12 @@ public class HomeController : Controller
     }
     public IActionResult Deportes()
     {
+        ViewBag.ListaDeportes = BD.ListarDeportes();
         return View();
     }
     public IActionResult Paises()
     {
+        ViewBag.ListaPaises = BD.ListarPaises();
         return View();
     }
     public IActionResult VerDetalleDeporte(int idDeporte)

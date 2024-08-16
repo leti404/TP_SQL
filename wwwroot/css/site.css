@@ -11,7 +11,7 @@ html, body {
 * {
   padding: 0px;
   margin: 0px;
-  cursor: url('../antor.cur'), auto;
+  cursor: url('../antorcha.cur'), auto;
 }
 
 @media (min-width: 768px) {
@@ -41,7 +41,7 @@ html, body {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid #7c0303;
+  border: 5px solid #000000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -69,4 +69,35 @@ footer {
   text-align: left;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px; 
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.card {
+  flex: 1 1 calc(33.333% - 20px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  margin-bottom: 20px; 
+}
+
+.card img {
+  border-top-left-radius: 8px; 
+  border-top-right-radius: 8px; 
+  width: 500px;
+  height: 200px;
+
+}
+
+.card-body {
+  padding: 15px;
 }

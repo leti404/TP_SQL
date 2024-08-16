@@ -83,12 +83,12 @@ public class BD{
     }
 
     private static List<Deporte> _ListadoDeportes = new List<Deporte>();
-    public static List<Deporte> ListarDeportes(int idDeporte)
+    public static List<Deporte> ListarDeportes()
     {
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deportes WHERE IdDeporte = @idDeporte";
-            _ListadoDeportistasPorDeporte = JJOO.Query<Deportista>(sql, new{idDeporte = idDeporte}).ToList(); 
+            _ListadoDeportistasPorDeporte = JJOO.Query<Deportista>(sql).ToList(); 
         }
         return _ListadoDeportes;
     }
