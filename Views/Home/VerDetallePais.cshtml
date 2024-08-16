@@ -1,0 +1,21 @@
+
+
+
+<div class="container">
+    <div class="row">
+    
+      @foreach(Deportista deportista in @ViewBag.DeportistasPorPais)
+      {
+          <div class="card" style="width: 18rem;">
+            <img src="@deportista.Foto" class="card-img-top" alt="deportista">
+            <div class="card-body">
+              <h5 class="card-title">@deportista.Nombre @deportista.Apellido</h5>
+              
+              <a href='@Url.Action("VerDetallePais", "Home", new {idPais = pais.IdPais})' class="btn btn-primary">Ver Detalle Pais</a>
+              
+              <p class="card-text">Nacimiento: @deportista.FechaNacimiento.ToString("dd MMMM yyyy")</p>
+            </div>
+          </div>
+      }
+    </div>
+</div>
