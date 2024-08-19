@@ -1,11 +1,10 @@
 Detalle Deportista
 <div class="card" style="width: 18rem;">
-<img src="@deportista.Foto" class="card-img-top" alt="Foto deportista">
+<img src="@ViewBag.DetalleDeportista.Foto" class="card-img-top" alt="Foto deportista">
     <div class="card-body">
-        <h5 class="card-title">@deportista.Nombre @deportista.Apellido</h5>
-        <p class="card-text">Nacimiento: @deportista.FechaNacimiento.ToString("dd MMMM yyyy")</p>
-        <a href='@Url.Action("VerDetalleDeportista", "Home", new {idDeportista = deportista.IdDeportista})' class="btn btn-primary">Ver Detalle Deportista</a>
+        <h5 class="card-title">@ViewBag.DetalleDeportista.Nombre @ViewBag.DetalleDeportista.Apellido</h5>
+        <p class="card-text">Nacimiento: @ViewBag.DetalleDeportista.FechaNacimiento.ToString("dd MMMM yyyy")</p>
     </div>
 </div>
-<a href='@Url.Action("VerDetalleDeporte", "Home", new {idDeportista = deportista.IdDeportista})' class="btn btn-primary">Ver Pais</a>
-<a href='@Url.Action("VerDetallePais", "Home", new {idDeportista = deportista.IdDeportista})' class="btn btn-primary">Ver Deporte</a>
+<a href='@Url.Action("VerDetalleDeporte", "Home", new {idPais = ViewBag.DetalleDeportista.IdPais})' class="btn btn-primary">Ver Pais</a>
+<a href='@Url.Action("VerDetallePais", "Home", new {idDeporte = ViewBag.DetalleDeportista.IdDeporte})' class="btn btn-primary">Ver Deporte</a>
