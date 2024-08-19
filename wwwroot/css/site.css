@@ -151,7 +151,8 @@ button.accept-policy {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
-
+  display: flex;
+  justify-content: baseline;
 }
 
 .header{
@@ -221,10 +222,7 @@ article {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-article img {
-  display:flex;
-  justify-content: right;
-}
+
 h1 {
   color: #000000;
 }
@@ -301,4 +299,10 @@ form {
 
 form p {
   font-weight: bold;
+}
+
+.hist 
+{
+  display: flex;
+  justify-content: left;
 }
