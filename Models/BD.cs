@@ -46,7 +46,7 @@ public class BD{
         Deportista deportista = null;
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT * FROM Deportistas WHERE IdDeportistas = @idDeportista";
+            string sql = "SELECT * FROM Deportistas WHERE IdDeportista = @idDeportista";
             deportista = JJOO.QuerySingle<Deportista>(sql, new{idDeportista = idDeportista}); 
         }
         return deportista;

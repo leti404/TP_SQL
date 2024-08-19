@@ -65,10 +65,12 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult GuardarDeportista(Deportista dep)
     {
+        BD.AgregarDeportista(dep);
         return RedirectToAction("Index");
     }
     public IActionResult EliminarDeportista (int idCandidato)
     {
+        BD.EliminarDeportista(idCandidato);
         return RedirectToAction("Index");
     }
 
@@ -78,5 +80,4 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
-
 }

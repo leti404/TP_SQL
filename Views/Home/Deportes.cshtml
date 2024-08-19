@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+
+      @foreach(Deporte deporte in @ViewBag.ListaDeportes)
+      {
+          <div class="card" style="width: 18rem;">
+          <img src="@deporte.Foto" class="card-img-top" alt="Foto Deportista">
+            <div class="card-body">
+              <h5 class="card-title">@deporte.Nombre</h5>
+            </div>
+          </div>
+      }
+    </div>
+</div>
