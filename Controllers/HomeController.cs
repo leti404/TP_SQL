@@ -50,8 +50,9 @@ public class HomeController : Controller
     }
     public IActionResult AgregarDeportista()
     {
-
-        return View();
+        ViewBag._ListadoPaises = BD.ListarPaises();
+        ViewBag._ListadoDeportes = BD.ListarDeportes();
+        return View(); 
     }
     public IActionResult Creditos()
     {
