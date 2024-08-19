@@ -79,7 +79,7 @@ public class HomeController : Controller
 
 public HomeController(ILogger<HomeController> logger)
 {
-    _logger = logger; f93945a2d2dd6f85289c8bf263dbd0a1d3aa7e2b;
+    _logger = logger; 
 }
 
 public IActionResult Index()
