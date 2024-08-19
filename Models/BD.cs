@@ -46,7 +46,7 @@ public class BD{
         Deportista deportista = null;
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT * FROM Deportistas WHERE IdDeportistas = @idDeportista";
+            string sql = "SELECT * FROM Deportistas WHERE IdDeportista = @idDeportista";
             deportista = JJOO.QuerySingle<Deportista>(sql, new{idDeportista = idDeportista}); 
         }
         return deportista;
@@ -83,12 +83,12 @@ public class BD{
     }
 
     private static List<Deporte> _ListadoDeportes = new List<Deporte>();
-    public static List<Deporte> ListarDeportes(int idDeporte)
+    public static List<Deporte> ListarDeportes()
     {
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deportes WHERE IdDeporte = @idDeporte";
-            _ListadoDeportistasPorPais = JJOO.Query<Deportista>(sql, new{idPais = idPais}).ToList(); 
+            _ListadoDeportistasPorDeporte = JJOO.Query<Deportista>(sql).ToList(); 
         }
         return _ListadoDeportes;
     }
