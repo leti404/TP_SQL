@@ -88,7 +88,7 @@ public class BD{
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deportes";
-            _ListadoDeportistasPorDeporte = JJOO.Query<Deportista>(sql).ToList(); 
+            _ListadoDeportes = JJOO.Query<Deporte>(sql).ToList(); 
         }
         return _ListadoDeportes;
     }
