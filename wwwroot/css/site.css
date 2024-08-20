@@ -13,7 +13,7 @@ body {
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Serif', 'Times New Roman';
+  font-family: 'Roboto', sans-serif;
   text-align: left;
   color: black;
   background-color: #e9e9e9;
@@ -158,28 +158,6 @@ footer {
 }
 
 
-.imgfondo {
-  height: 700px;
-  width: 100%;
-}
-
-
-.text-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(255, 255, 255);
-  font-size: 70px; 
-  font-weight: bold;
-  text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5); 
-  text-align: center;
-}
-
-.textindex{
-  align-items: center;
-  font-size: x-large;
-}
 
 article {
   background: #a0a0a0;
@@ -189,6 +167,36 @@ article {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.imgfondo {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px; 
+}
+
+.imgfondo img {
+  width: 100%; 
+  height: auto; 
+  filter: brightness(70%); 
+}
+
+.imgfondo .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem; 
+  font-weight: bold; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+.textindex {
+  text-align: center;
+  margin: 20px 0;
+  color: #6c757d; 
+  font-size: 1.25rem; 
+}
 
 h1 {
   color: #000000;
@@ -282,14 +290,6 @@ form p {
 }
 
 
-footer {
-  margin-top: 3%;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
-  text-align: center;
-}
-
 .hist
 {
   margin-top: 3%;
@@ -300,17 +300,53 @@ footer {
 }
   
 
-.footi
-{
-  width: 100px;
-  height: auto;
-  float: left;
-  margin-left: 10%;
-  margin-bottom: 5%;
-  margin-right: 5%
+footer {
+  background-color: #000000;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #dcdcdc;
 }
 
-.FooterText
-{
-  width: 60%;
+footer .footi {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+footer .FooterText {
+  margin-top: 10px;
+  color: #ff0000;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-links div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+  transition: color 0.3s ease;
+}
+
+.oli2 a:hover {
+  color: #ffc107;
+}
+.oli1 a:hover {
+  color: #070bff;
+}
+.oli3 a:hover {
+  color: #3c8103;
 }
