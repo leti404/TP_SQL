@@ -1,0 +1,20 @@
+<form action='@Url.Action("GuardarPais")' method="POST">
+    <div class="input-group">
+        <span class="input-group-text">Nombre</span>
+        <input type="text" name="Nombre" aria-label="Nombre" class="form-control">
+    </div>
+
+    <div class="container mt-5">
+        <div class="form-group">
+            <label for="datepicker">Fecha de Fundacion:</label>
+            <input type="date" name="FechaFundacion" class="form-control" id="datepicker">
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Link Bandera</label>
+        <input type="text" name="Bandera" class="form-control" id="exampleInputEmail1">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

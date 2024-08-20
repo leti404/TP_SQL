@@ -22,7 +22,16 @@
                 <li class="nav-item"><a class="nav-link" href='@Url.Action("Historia")'>Historia</a></li>
                 <li class="nav-item"><a class="nav-link" href='@Url.Action("Deportes")'>Deportes</a></li>
                 <li class="nav-item"><a class="nav-link" href='@Url.Action("Paises")'>Países</a></li>
-                <li class="nav-item"><a class="nav-link" href='@Url.Action("AgregarDeportista")'>Agregar Deportista</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Agregar a la BD
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href='@Url.Action("AgregarDeportista")'>Agregar Deportista</a></li>
+                        <li><a class="dropdown-item" href='@Url.Action("AgregarPais")'>Agregar Pais</a></li>
+                        <li><a class="dropdown-item" href='@Url.Action("AgregarDeporte")'>Agregar Deporte</a></li>
+                    </ul>
+                </li>
                 <li class="nav-item"><a class="nav-link" href='@Url.Action("Creditos")'>Créditos</a></li>
             </ul>
         </nav>

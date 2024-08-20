@@ -214,8 +214,13 @@ button.accept-policy {
   color: rgb(255, 255, 255);
   font-size: 70px; 
   font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5); 
   text-align: center;
+}
+
+.textindex{
+  align-items: center;
+  font-size: x-large;
 }
 
 article {
