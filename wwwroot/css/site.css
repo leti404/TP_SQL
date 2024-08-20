@@ -4,11 +4,6 @@ body {
   flex-direction: column;
 }
 
-.container {
-  flex: 1; 
-}
-
-
 
 html, body {
   height: 100%;
@@ -283,12 +278,6 @@ form p {
   margin: 20px 0;
 }
 
-.contenedor
-{
-  width: max-content;
-  height: 300px;
-}
-
 
 .hist
 {
@@ -308,6 +297,8 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   color: #dcdcdc;
+  display: flex;
+  align-items: baseline;
 }
 
 footer .footi {
