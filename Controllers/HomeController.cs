@@ -69,6 +69,30 @@ public class HomeController : Controller
         BD.AgregarDeportista(dep);
         return RedirectToAction("Index");
     }
+    public IActionResult AgregarPais()
+    {
+        ViewBag._ListadoPaises = BD.ListarPaises();
+        ViewBag._ListadoDeportes = BD.ListarDeportes();
+        return View(); 
+    }
+    [HttpPost]
+    public IActionResult GuardarPais(Pais pais)
+    {
+        BD.AgregarPais(pais);
+        return RedirectToAction("Index");
+    }
+    public IActionResult AgregarDeporte()
+    {
+        ViewBag._ListadoPaises = BD.ListarPaises();
+        ViewBag._ListadoDeportes = BD.ListarDeportes();
+        return View(); 
+    }
+    [HttpPost]
+    public IActionResult GuardarDeporte(Deporte Dep)
+    {
+        BD.AgregarDeporte(Dep);
+        return RedirectToAction("Index");
+    }
     public IActionResult EliminarDeportista (int idCandidato)
     {
         BD.EliminarDeportista(idCandidato);

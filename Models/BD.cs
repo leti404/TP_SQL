@@ -11,6 +11,22 @@ public class BD{
             JJOO.Execute(sql, new{dNombre = Dep.Nombre, dApellido = Dep.Apellido, dFechaNacimiento = Dep.FechaNacimiento, dFoto = Dep.Foto, dIdPais = Dep.IdPais, dIdDeporte = Dep.IdDeporte}); 
         }
     }
+    public static void AgregarPais(Pais pais)
+    {
+        string sql = "INSERT INTO Paises(Nombre, Bandera, FechaFundacion) VALUES (@dNombre, @dBandera, @dFechaFundacion)";
+        using(SqlConnection JJOO = new SqlConnection(_connectionString))
+        {
+            JJOO.Execute(sql, new{dNombre = pais.Nombre, dBandera = pais.Bandera, dFechaFundacion = pais.FechaFundacion}); 
+        }
+    }
+    public static void AgregarDeporte(Deporte Dep)
+    {
+        string sql = "INSERT INTO Paises(Nombre, Foto) VALUES (@dNombre, @dFoto)";
+        using(SqlConnection JJOO = new SqlConnection(_connectionString))
+        {
+            JJOO.Execute(sql, new{dNombre = Dep.Nombre, dFoto = Dep.Foto}); 
+        }
+    }
     public static int EliminarDeportista(int DeportistaEliminar)
     {
         int DeportistasEliminados = 0;
