@@ -200,7 +200,7 @@ button.accept-policy {
 }
 
 
-.imgfondo img{
+.imgfondo {
   height: 700px;
   width: 100%;
 }
@@ -310,4 +310,44 @@ form p {
   display: flex;
   justify-content: flex-end;
   margin: 20px 0;
+}
+
+.contenedor
+{
+  width: max-content;
+  height: 300px;
+}
+
+
+footer {
+  margin-top: 3%;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  text-align: center;
+}
+
+.hist
+{
+  margin-top: 3%;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  text-align: center;
+}
+  
+
+.footi
+{
+  width: 100px;
+  height: auto;
+  float: left;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  margin-right: 5%
+}
+
+.FooterText
+{
+  width: 60%;
 }
