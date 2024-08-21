@@ -4,9 +4,9 @@
         <div class="card-body">
             <h5 class="card-title">@ViewBag.DetalleDeportista.Nombre @ViewBag.DetalleDeportista.Apellido</h5>
             <p class="card-text">Nacimiento: @ViewBag.DetalleDeportista.FechaNacimiento.ToString("dd MMMM yyyy")</p>
-            <a href='@Url.Action("VerDetalleDeporte", "Home", new {idPais = ViewBag.DetalleDeportista.IdPais})'
-                class="btn btn-primary">Ver Pais</a>
-            <a href='@Url.Action("VerDetallePais", "Home", new {idDeporte = ViewBag.DetalleDeportista.IdDeporte})'
+            <a href='@Url.Action("VerDetallePais", "Home", new { idPais = ViewBag.DetalleDeportista.IdPais })'
+                class="btn btn-primary">Ver País</a>
+            <a href='@Url.Action("VerDetalleDeporte", "Home", new { idDeporte = ViewBag.DetalleDeportista.IdDeporte })'
                 class="btn btn-primary">Ver Deporte</a>
         </div>
     </div>

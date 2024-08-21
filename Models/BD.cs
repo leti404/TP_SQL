@@ -2,7 +2,7 @@ using System.Data.SqlClient;
 using System;
 using Dapper;
 public class BD{
-    private static string _connectionString = @"Server=localhost;
+    private static string _connectionString = @"Server=L-LE-LE\SQLEXPRESS;
     DataBase=JJOO;Trusted_Connection=True;";
     public static void AgregarDeportista(Deportista Dep)
     {
