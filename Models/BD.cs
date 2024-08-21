@@ -2,7 +2,7 @@ using System.Data.SqlClient;
 using System;
 using Dapper;
 public class BD{
-    private static string _connectionString = @"Server=L-LE-LE\SQLEXPRESS;
+    private static string _connectionString = @"Server=localhost;
     DataBase=JJOO;Trusted_Connection=True;";
     public static void AgregarDeportista(Deportista Dep)
     {
@@ -38,13 +38,13 @@ public class BD{
         }
         return DeportistasEliminados;
     }
-    public static Deporte VerInfoDeporte(int idDeporte)
+    public static Deporte VerInfoDeporte(int idDeporteIng)
     {
         Deporte deporte = null;
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT * FROM Deportes WHERE IdDeporte = @idDeporte";
-            deporte = JJOO.QuerySingle<Deporte>(sql, new{idDeporte = idDeporte}); 
+            string sql = "SELECT * FROM Deportes WHERE IdDeporte = @pidDeporte";
+            deporte = JJOO.QueryFirstOrDefault<Deporte>(sql, new{pidDeporte = idDeporteIng}); 
         }
         return deporte; 
     }
@@ -54,7 +54,7 @@ public class BD{
         using(SqlConnection JJOO = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Paises WHERE IdPais = @idPais";
-            pais = JJOO.QuerySingle<Pais>(sql, new{idPais = idPais});  
+            pais = JJOO.QueryFirstOrDefault<Pais>(sql, new{idPais = idPais});  
         }
         return pais;
     }
