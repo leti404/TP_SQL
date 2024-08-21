@@ -79,7 +79,7 @@ public class BD{
         }
         return _ListadoPaises;
     }
-     
+     private static List<Deportista> _ListadoDeportistasPorDeporte = new List<Deportista>();
     public static List<Deportista> ListarDeportistasPorDeporte(int idDeporteIng)
     {
         List<Deportista> _ListadoDeportistasPorDeporte = new List<Deportista>();

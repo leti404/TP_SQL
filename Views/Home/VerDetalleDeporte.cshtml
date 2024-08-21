@@ -1,13 +1,13 @@
 <div class="conte">
     <div class="row">
-        @foreach (Deportista dep in @ViewBag._ListadoDeportistasPorDeporte)
+        @foreach (Deportista deportista in @ViewBag.DeportistasPorDeporte)
         {
             <div class="card" style="width: 18rem;">
-                <img src="@dep.Foto" class="card-img-top" alt="Foto deportista">
+                <img src="@deportista.Foto" class="card-img-top" alt="Foto deportista">
                 <div class="card-body">
-                    <h5 class="card-title">@dep.Nombre @dep.Apellido</h5>
-                    <p class="card-text">Nacimiento: @dep.FechaNacimiento.ToString("dd MMMM yyyy")</p>
-                    <a href='@Url.Action("VerDetalleDeportista", "Home", new {idDeportista = dep.IdDeportista})'
+                    <h5 class="card-title">@deportista.Nombre @deportista.Apellido</h5>
+                    <p class="card-text">Nacimiento: @deportista.FechaNacimiento.ToString("dd MMMM yyyy")</p>
+                    <a href='@Url.Action("VerDetalleDeportista", "Home", new {idDeportista = deportista.IdDeportista})'
                         class="btn btn-primary">Ver Detalle Deportista</a>
                 </div>
             </div>
