@@ -1,39 +1,42 @@
+<div class="conte">
+  <div class="row">
 
-    <div class="row">
-
-      @foreach(Deportista deportista in @ViewBag.DeportistasPorPais)
-      {
-        <div class="card" style="width: 18rem;">
-          <img src="@deportista.Foto" class="card-img-top" alt="Foto deportista">
-            <div class="card-body">
-              <h5 class="card-title">@deportista.Nombre @deportista.Apellido</h5>
-              <p class="card-text">Nacimiento: @deportista.FechaNacimiento.ToString("dd MMMM yyyy")</p>
-              <a href='@Url.Action("VerDetalleDeportista", "Home", new {idDeportista = deportista.IdDeportista})' class="btn btn-primary">Ver Detalle Deportista</a>
-            </div>
+    @foreach (Deportista deportista in @ViewBag.DeportistasPorPais)
+    {
+      <div class="card" style="width: 18rem;">
+        <img src="@deportista.Foto" class="card-img-top" alt="Foto deportista">
+        <div class="card-body">
+          <h5 class="card-title">@deportista.Nombre @deportista.Apellido</h5>
+          <p class="card-text">Nacimiento: @deportista.FechaNacimiento.ToString("dd MMMM yyyy")</p>
+          <a href='@Url.Action("VerDetalleDeportista", "Home", new {idDeportista = deportista.IdDeportista})'
+            class="btn btn-primary">Ver Detalle Deportista</a>
         </div>
-      }
-    </div>
+      </div>
+    }
+  </div>
+</div>
+
 
 
 <footer>
 
-    <div class="footer-links">
-        <div class="oli1">
-            <a href='@Url.Action("Historia")'>Historia</a>
-            <a href='@Url.Action("Deportes")'>Deportes</a>
-            <a href='@Url.Action("Paises")'>Países</a>
-        </div>
-        <div class="oli2">
-            <a href='@Url.Action("AgregarDeportista")'>Agregar Deportista</a>
-            <a href='@Url.Action("AgregarPais")'>Agregar País</a>
-            <a href='@Url.Action("AgregarDeporte")'>Agregar Deporte</a>
-        </div>
-        <div class="oli3">
-            <a href='@Url.Action("Creditos")'>Créditos</a>
-        </div>
+  <div class="footer-links">
+    <div class="oli1">
+      <a href='@Url.Action("Historia")'>Historia</a>
+      <a href='@Url.Action("Deportes")'>Deportes</a>
+      <a href='@Url.Action("Paises")'>Países</a>
     </div>
-    <img class="footi" src="../Fotos/jooparis.png">
-    <div class="FooterText">
-        &copy; 2024 - TP_SQL - Ian Segade - Lucas D'Agostino - Tomas Cabral - Leticia Passer
+    <div class="oli2">
+      <a href='@Url.Action("AgregarDeportista")'>Agregar Deportista</a>
+      <a href='@Url.Action("AgregarPais")'>Agregar País</a>
+      <a href='@Url.Action("AgregarDeporte")'>Agregar Deporte</a>
     </div>
+    <div class="oli3">
+      <a href='@Url.Action("Creditos")'>Créditos</a>
+    </div>
+  </div>
+  <img class="footi" src="../Fotos/jooparis.png">
+  <div class="FooterText">
+    &copy; 2024 - TP_SQL - Ian Segade - Lucas D'Agostino - Tomas Cabral - Leticia Passer
+  </div>
 </footer>

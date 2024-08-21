@@ -1,4 +1,4 @@
-
+<div class="conte">
   <div class="row">
 
     @foreach (Pais pais in @ViewBag.ListaPaises)
@@ -8,12 +8,13 @@
         <div class="card-body">
           <h5 class="card-title">@pais.Nombre</h5>
           <p class="card-text">El pais se fundo en @pais.FechaFundacion.ToString("dd MMMM yyyy")</p>
-          <a href='@Url.Action("VerDetallePais", "Home", new {idPais = pais.IdPais})' class="btn btn-primary">Ver Detalle
-            Pais</a>
+          <a href='@Url.Action("VerDetallePais", "Home", new {idPais = pais.IdPais})' class="btn btn-primary">Ver Detalle Pais</a>
         </div>
       </div>
     }
   </div>
+</div>
+
 
 
 <footer>
